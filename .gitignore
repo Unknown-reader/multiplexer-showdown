@@ -1,0 +1,10 @@
+# Скомпилированные файлы
+build/
+*.o
+*.out
+server
+bench_client
+
+# Python
+__pychache__/
+benchmark.png
