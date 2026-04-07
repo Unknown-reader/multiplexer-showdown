@@ -8,3 +8,6 @@ bench_client
 # Python
 __pychache__/
 benchmark.png
+
+# Notes
+plan.txt
