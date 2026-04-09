@@ -8,7 +8,7 @@ if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
     add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-add_executable(server src/main.cpp)
+add_executable(server src/main.cpp src/SelectServer.cpp)
 target_include_directories(server PRIVATE src)
 
 add_executable(bench_client src/bench_client.cpp)
